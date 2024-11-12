@@ -1,0 +1,47 @@
+*,::after,::before
+{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+    margin:15px 0;
+    font-weight: 900;
+}
+
+p.instructions{
+   
+    margin: 35px 0;
+}
+
+.my-button
+{
+    background-color: blue;
+    color: white;
+    width: 250px;
+    height: 80px;
+    padding: 2px 6px;
+    border:2px outset;
+}
+
+.my-button:hover
+{
+    background-color: green;
+    cursor: auto;
+}
+
+
+p{
+    font-size: 35px;
+}
+
+p.quote
+{
+    margin-top: 35px;
+}
+
+p.quoteAuthor
+{
+    margin-top: 20px;
+}
